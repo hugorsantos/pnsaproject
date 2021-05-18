@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { UsuarioComponent } from './pages/usuario/usuario.component';
+import { DizimistaComponent } from './pages/dizimista/dizimista.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    UsuarioComponent,
+    DizimistaComponent
   ],
   imports: [
     BrowserModule,
